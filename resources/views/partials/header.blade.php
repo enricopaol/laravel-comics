@@ -62,7 +62,8 @@
 
                 {{-- Search --}}
                 <div class="search">
-                    Search
+                    <input type="text" placeholder="Search">
+                    <span class="search-icon"><i class="fas fa-search"></i></span>
                 </div>
 
 
