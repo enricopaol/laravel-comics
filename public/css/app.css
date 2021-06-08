@@ -36,6 +36,7 @@ header .header-top .header-top-nav li a {
   font-size: 10px;
   text-transform: uppercase;
   display: block;
+  font-weight: 700;
 }
 header nav .container {
   display: flex;
