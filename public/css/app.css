@@ -61,7 +61,7 @@ header nav .menu li.active, header nav .menu li:hover {
 header nav .menu li a {
   text-decoration: none;
   color: #56575a;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
   display: block;
@@ -79,7 +79,7 @@ header nav .search input {
   border-width: 0;
   outline: none;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
 }
 header nav .search .search-icon i {
@@ -90,4 +90,62 @@ header .banner {
   height: 380px;
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
+}
+
+main .comics-section {
+  background-color: #1c1c1c;
+  padding-bottom: 30px;
+}
+main .comics-section .comics-container {
+  padding: 50px 0 30px;
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+main .comics-section .comics-container::before {
+  content: "current series";
+  display: inline-block;
+  background-color: #0282f9;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  position: absolute;
+  top: -25px;
+  font-weight: 700;
+}
+main .comics-section .comics-container .single-comic {
+  width: calc( 100% / 6 );
+  padding: 10px;
+}
+main .comics-section .comics-container .single-comic .comic-img {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+main .comics-section .comics-container .single-comic .comic-title {
+  margin-top: 15px;
+}
+main .comics-section .comics-container .single-comic .comic-title a {
+  color: #fff;
+  text-decoration: none;
+  font-style: 14px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+main .comics-section .btn-container {
+  text-align: center;
+}
+main .comics-section .btn-container .btn {
+  background-color: #0282f9;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
 }
