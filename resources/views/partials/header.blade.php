@@ -66,9 +66,10 @@
                     <span class="search-icon"><i class="fas fa-search"></i></span>
                 </div>
 
-
             </div>            
         </nav>
-    
-    
+
+        {{-- Banner --}}
+        <div class="banner"></div>
+        
 </header>

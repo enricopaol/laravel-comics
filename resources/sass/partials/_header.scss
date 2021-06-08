@@ -18,9 +18,7 @@ header {
                     text-transform: uppercase;
                     display: block;                    
                 }
-            }
-            
-            
+            }                        
         }
     }
 
@@ -66,28 +64,31 @@ header {
                 }
             }
         }
-    }
 
-    .search {
-        border-bottom: 3px solid $brand_primary_color;
-
-        input {
-            text-align: right;
-            width: 100px;
-            border-width: 0;
-            outline: none;
-            vertical-align: middle;
-            font-size: 14px;
-            font-weight: 700;
+        .search {
+            border-bottom: 3px solid $brand_primary_color;
+    
+            input {
+                text-align: right;
+                width: 100px;
+                border-width: 0;
+                outline: none;
+                vertical-align: middle;
+                font-size: 14px;
+                font-weight: 700;
+            }
+    
+            .search-icon i {
+                vertical-align: middle;
+                color: $brand_secondary_color;
+            }            
         }
-
-        .search-icon i {
-            vertical-align: middle;
-            color: $brand_secondary_color;
-        }
-
-        
+    } 
+    
+    .banner {
+        height: 380px;
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;
     }
-
     
 }

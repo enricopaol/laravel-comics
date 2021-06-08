@@ -70,10 +70,10 @@ header nav .menu li a:hover,
 header nav .menu li a span {
   color: #0282f9;
 }
-header .search {
+header nav .search {
   border-bottom: 3px solid #0282f9;
 }
-header .search input {
+header nav .search input {
   text-align: right;
   width: 100px;
   border-width: 0;
@@ -82,7 +82,12 @@ header .search input {
   font-size: 14px;
   font-weight: 700;
 }
-header .search .search-icon i {
+header nav .search .search-icon i {
   vertical-align: middle;
   color: #56575a;
+}
+header .banner {
+  height: 380px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
 }
