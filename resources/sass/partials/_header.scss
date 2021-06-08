@@ -16,11 +16,52 @@ header {
                     text-decoration: none;
                     font-size: 10px;
                     text-transform: uppercase;
-                    display: block;
+                    display: block;                    
                 }
             }
             
             
         }
     }
+
+    nav {
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            width: 80px;
+        }
+
+        .menu {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+
+            li {
+                margin: 0 15px;                              
+                padding-bottom: 50px;
+
+                &.active,
+                &:hover {
+                    border-bottom: 4px solid $brand_primary_color;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $brand_secondary_color;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    
 }

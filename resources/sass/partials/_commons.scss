@@ -5,11 +5,16 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
 }
 
 // Container
 .container {
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
