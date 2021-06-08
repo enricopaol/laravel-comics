@@ -1,0 +1,26 @@
+header {
+    .header-top {
+        background-color: $brand_primary_color;
+
+        .header-top-nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 4px 0;
+
+            li {
+                margin-left: 45px;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    display: block;
+                }
+            }
+            
+            
+        }
+    }
+}
