@@ -1,5 +1,6 @@
 main {    
 
+    // All Comics Page
     .comics-section {
         background-color: $brand_tertiary_color;
         padding-bottom: 30px;
@@ -99,6 +100,51 @@ main {
             }
         }
     }
+
+    // Single Comic Page    
+    .comic-poster {
+        height: 80px;
+        background-color: $brand_primary_color;
+
+        .container {
+            position: relative;
+            height: 100%;
+        }
+
+        img {
+            height: auto;
+            width: auto;
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            border: 1px solid white;
+        }
+    }
+
+    .comic-presentation {
+
+        .container {
+            display: flex;
+        }
+
+        .comic-info {
+            width: 60%;
+
+            h1 {
+                color: #093f6a;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+        }
+
+        .advertisement {
+            width: 40%;
+            padding-left: 30px;
+        }
+
+    }
+
+
 
     
     
