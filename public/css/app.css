@@ -194,6 +194,9 @@ main .comic-poster img {
   left: 0;
   border: 1px solid white;
 }
+main .comic-presentation {
+  padding: 50px 0;
+}
 main .comic-presentation .container {
   display: flex;
 }
@@ -201,9 +204,40 @@ main .comic-presentation .comic-info {
   width: 60%;
 }
 main .comic-presentation .comic-info h1 {
-  color: #093f6a;
+  color: #137fad;
   text-transform: uppercase;
   font-size: 30px;
+  margin-bottom: 30px;
+}
+main .comic-presentation .comic-info .price-table {
+  background-color: #55ba59;
+  display: flex;
+  margin-bottom: 20px;
+}
+main .comic-presentation .comic-info .price-table .price {
+  border-right: 1px solid rgba(0, 0, 0, 0.459);
+  width: 65%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+}
+main .comic-presentation .comic-info .price-table .price span.title {
+  color: #a0f38e;
+  margin-right: 5px;
+}
+main .comic-presentation .comic-info .price-table .price span.price-number {
+  color: #fff;
+  font-size: 16px;
+}
+main .comic-presentation .comic-info .price-table .check {
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
 }
 main .comic-presentation .advertisement {
   width: 40%;

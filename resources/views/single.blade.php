@@ -22,6 +22,28 @@
                 <h1>
                     {{ $comicInfo['title'] }}
                 </h1>
+
+                {{-- Price Table --}}
+                <div class="price-table">
+
+                    <div class="price">
+
+                        <div class="left">
+                            <span class="title">U.S. Price:</span>
+                            <span class="price-number">{{ $comicInfo['price'] }}</span>
+                        </div>
+
+                        <div class="right">
+                            <span class="title">AVAILABLE</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="check">
+                        Check Availability &#9660
+                    </div>
+
+                </div>
             </div>
 
             {{-- Advertisement --}}
