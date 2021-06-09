@@ -189,15 +189,68 @@ main {
                 text-transform: uppercase;
                 color: $brand_footer_text_color;
                 font-size: 18px;
-                font-weight: bold;
-                margin-bottom: 5px;
+                font-weight: bold;                
             }
 
             .ads-img {
                 width: 100%;
+                margin-top: 5px;
             }
         }
 
+    }
+
+    .comic-details {
+        background-color: #f6f6f6;
+        padding: 30px 0 90px;
+
+        .container {
+            display: flex;
+        }
+
+        .talent {
+            padding-right: 15px
+        }
+
+        .specs {
+            padding-left: 15px;
+        }
+
+        .talent,
+        .specs {
+            width: 50%;
+
+            h2 {
+                color: #137fad;
+                font-size: 25px;
+                padding-bottom: 30px;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+            }
+
+            .table {
+
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 0;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+
+                    h4 {
+                        width: 30%;
+                    }
+
+                    p {
+                        width: 70%;
+
+                        a {
+                            color: blue;
+                            text-decoration: none;
+                        }
+                    }
+
+                }                
+            }
+        }
     }
 
 

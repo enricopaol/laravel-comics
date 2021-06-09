@@ -254,10 +254,54 @@ main .comic-presentation .advertisement .ads-warning {
   color: #797979;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 5px;
 }
 main .comic-presentation .advertisement .ads-img {
   width: 100%;
+  margin-top: 5px;
+}
+main .comic-details {
+  background-color: #f6f6f6;
+  padding: 30px 0 90px;
+}
+main .comic-details .container {
+  display: flex;
+}
+main .comic-details .talent {
+  padding-right: 15px;
+}
+main .comic-details .specs {
+  padding-left: 15px;
+}
+main .comic-details .talent,
+main .comic-details .specs {
+  width: 50%;
+}
+main .comic-details .talent h2,
+main .comic-details .specs h2 {
+  color: #137fad;
+  font-size: 25px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+main .comic-details .talent .table .row,
+main .comic-details .specs .table .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+main .comic-details .talent .table .row h4,
+main .comic-details .specs .table .row h4 {
+  width: 30%;
+}
+main .comic-details .talent .table .row p,
+main .comic-details .specs .table .row p {
+  width: 70%;
+}
+main .comic-details .talent .table .row p a,
+main .comic-details .specs .table .row p a {
+  color: blue;
+  text-decoration: none;
 }
 
 footer .footer-top {

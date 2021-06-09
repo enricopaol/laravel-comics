@@ -67,7 +67,86 @@
 
     {{-- Comic Details Section --}}
     <section class="comic-details">
-        
+        <div class="container">
+
+            {{-- Talent --}}
+            <div class="talent">
+                <h2>Talent</h2>
+
+                <div class="table">
+
+                    {{-- Row --}}
+                    <div class="row">
+
+                        <h4>Art by:</h4>
+
+                        <p>
+                            @foreach ($comicInfo['artists'] as $artist)
+                                <a href="#">{{$artist}}</a>@if (!$loop->last),@endif
+                            @endforeach
+                        </p>
+
+                    </div>                
+
+                    {{-- Row --}}
+                    <div class="row">
+
+                        <h4>Written by:</h4>
+
+                        <p>
+                            @foreach ($comicInfo['writers'] as $writer)
+                                <a href="#">{{$writer}}</a>@if (!$loop->last),@endif
+                            @endforeach
+                        </p>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            {{-- Spect --}}
+            <div class="specs">
+                <h2>Specs</h2>
+
+                <div class="table">
+
+                    {{-- Row --}}
+                    <div class="row">
+
+                        <h4>Series:</h4>
+
+                        <p>
+                            {{ $comicInfo['series'] }}
+                        </p>
+
+                    </div>                
+
+                    {{-- Row --}}
+                    <div class="row">
+
+                        <h4>U.S. Price:</h4>
+
+                        <p>
+                            {{ $comicInfo['price'] }}
+                        </p>
+
+                    </div>
+
+                    {{-- Row --}}
+                    <div class="row">
+
+                        <h4>On Sale Date:</h4>
+
+                        <p>
+                            {{ $comicInfo['sale_date'] }}
+                        </p>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>        
     </section>
 
 @endsection
