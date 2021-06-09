@@ -134,7 +134,34 @@
 
     {{-- Footer Bottom --}}
     <div class="footer-bottom">
+        <div class="container">
 
+            <div class="button-left">
+                <a href="#" class="footer-button">Sign-Up Now!</a>
+            </div>
+
+            <div class="socials">
+                <span>Follow Us</span>
+                <ul>
+                    <li>
+                        <a href="#"><img src="{{ asset('img/footer-facebook.png') }}" alt=""></a>                        
+                    </li>
+                    <li>
+                        <a href="#"><img src="{{ asset('img/footer-twitter.png') }}" alt=""></a>                        
+                    </li>
+                    <li>
+                        <a href="#"><img src="{{ asset('img/footer-youtube.png') }}" alt=""></a>                        
+                    </li>
+                    <li>
+                        <a href="#"><img src="{{ asset('img/footer-pinterest.png') }}" alt=""></a>                        
+                    </li>
+                    <li>
+                        <a href="#"><img src="{{ asset('img/footer-periscope.png') }}" alt=""></a>                        
+                    </li>
+                </ul>
+            </div>   
+
+        </div>
     </div>
 
 </footer>

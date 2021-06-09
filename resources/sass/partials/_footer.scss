@@ -1,0 +1,117 @@
+footer {
+    
+    .footer-top {
+        background-image: url('../img/footer-bg.jpg');
+        padding: 30px 0;
+        overflow: hidden;
+        
+        .container {
+            display: flex;
+        }
+
+        .footer-nav,
+        .footer-logo {
+            width: 50%;
+        }
+
+        .footer-nav {
+
+            &-top {
+                display: flex;
+            }
+
+            &-col {
+                margin-right: 20px;
+            }
+
+            &-menu {
+                list-style-type: none;         
+                margin-bottom: 20px;
+
+                li {
+                    
+                    a {
+                        color: $brand_footer_text_color;
+                        text-decoration: none;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            &-title {
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+
+            &-copyright {
+                color: $brand_footer_text_color;
+
+                a {
+                    color: blue;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        .footer-logo {
+            position: relative;
+
+            img {
+                position: absolute;
+                top: -70px;
+                left: 0;
+            }
+        }
+    }
+
+    .footer-bottom {
+        background-color: $brand_footer_color;
+
+        .container {
+            display: flex;
+            justify-content: space-between;    
+            align-items: center;  
+            padding: 30px 0;      
+        }
+
+        .button-left {
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #fff;
+                display: block;
+                padding: 10px 25px;
+                border: 2px solid $brand_primary_color;
+                font-size: 16px;
+            } 
+        }
+
+        .socials {
+            display: flex;
+            align-items: center;
+
+            span {
+                color: $brand_primary_color;
+                text-transform: uppercase;
+                margin-right: 10px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+
+                li {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 20px;                    
+                }
+            }
+        }
+    }
+}
