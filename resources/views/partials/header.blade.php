@@ -31,11 +31,11 @@
                     <li>
                         <a href="#">Characters</a>
                     </li>
-                    <li class="active">
+                    <li class="{{Request::route()->getName() == 'home' || Request::route()->getName() == 'single' ? 'active' : ''}}">
                         <a href="{{ route('home') }}">Comics</a>
                     </li>
-                    <li>
-                        <a href="#">Movies</a>
+                    <li class="{{Request::route()->getName() == 'movies' ? 'active' : ''}}">
+                        <a href="{{ route('movies') }}">Movies</a>
                     </li>
                     <li>
                         <a href="#">TV</a>

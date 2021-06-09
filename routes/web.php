@@ -45,3 +45,7 @@ Route::get('/single-comic/{id}', function ($id) {
 })->name('single');
 
 
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
+

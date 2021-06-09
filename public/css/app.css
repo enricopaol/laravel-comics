@@ -190,7 +190,7 @@ main .comic-poster img {
   height: auto;
   width: auto;
   position: absolute;
-  bottom: 15px;
+  bottom: 20px;
   left: 0;
   border: 1px solid white;
 }
@@ -320,7 +320,7 @@ footer .footer-top .footer-nav-top {
   display: flex;
 }
 footer .footer-top .footer-nav-col {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 footer .footer-top .footer-nav-menu {
   list-style-type: none;
