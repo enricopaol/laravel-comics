@@ -172,11 +172,30 @@ main {
                     font-weight: bold;
                 }
             }
+
+            .comic-description {
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: .6px;
+            }
         }
 
         .advertisement {
             width: 40%;
-            padding-left: 30px;
+            padding-left: 40px;
+            text-align: right;
+
+            .ads-warning {
+                text-transform: uppercase;
+                color: $brand_footer_text_color;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .ads-img {
+                width: 100%;
+            }
         }
 
     }

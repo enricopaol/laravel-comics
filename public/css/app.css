@@ -239,9 +239,25 @@ main .comic-presentation .comic-info .price-table .check {
   font-size: 16px;
   font-weight: bold;
 }
+main .comic-presentation .comic-info .comic-description {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+}
 main .comic-presentation .advertisement {
   width: 40%;
-  padding-left: 30px;
+  padding-left: 40px;
+  text-align: right;
+}
+main .comic-presentation .advertisement .ads-warning {
+  text-transform: uppercase;
+  color: #797979;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+main .comic-presentation .advertisement .ads-img {
+  width: 100%;
 }
 
 footer .footer-top {

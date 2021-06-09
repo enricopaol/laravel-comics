@@ -44,14 +44,30 @@
                     </div>
 
                 </div>
+
+                {{-- Description --}}
+                <p class="comic-description">
+                    {{ $comicInfo['description'] }}
+                </p>
+
             </div>
 
             {{-- Advertisement --}}
             <div class="advertisement">
+                <span class="ads-warning">Advertisement</span>
+
+                <div class="ads-img">
+                    <img src="{{ asset('img/adv.jpg') }}" alt="adv">
+                </div>
 
             </div>
 
         </div>
+    </section>
+
+    {{-- Comic Details Section --}}
+    <section class="comic-details">
+        
     </section>
 
 @endsection
