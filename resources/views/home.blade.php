@@ -21,7 +21,9 @@
                         </div>
 
                         <div class="comic-title">
-                            <a href="#">{{ $comic['series'] }}</a>
+                            <a href="{{ route('single', [
+                                'id' => $comic['id']
+                            ]) }}">{{ $comic['series'] }}</a>
                         </div>
                     </div> 
                 @endforeach                            
